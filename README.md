@@ -62,7 +62,7 @@ telnet localhost 54000
 
 <img width="1125" height="158" alt="Screenshot from 2025-11-24 22-21-25" src="https://github.com/user-attachments/assets/02baac7b-cc44-433a-93d9-0d5a699f93a4" />
 
-### Interact with the Server 
+#### Interact with the Server 
 
 <img width="1047" height="231" alt="Screenshot from 2025-11-24 22-21-41" src="https://github.com/user-attachments/assets/b2eb4b1d-8554-4df5-907d-599c8959a8d7" />
 
