@@ -1,9 +1,9 @@
-# Barebones TCP Server
+## Barebones TCP Server
 
 A minimal TCP server implemented in C++ using low-level socket programming.
 This project was created during my networking and socket-programming learning phase, focusing on understanding how TCP communication works at a fundamental level.
 
-##Environment
+### Environment
 
 * **Operating System:** Pop!_OS (Ubuntu-based)
 * **Language:** C++
@@ -12,7 +12,7 @@ This project was created during my networking and socket-programming learning ph
 
 ---
 
-##Project Structure
+### Project Structure
 
 barebones_tcp_server/
 ├── build/             
@@ -22,21 +22,21 @@ barebones_tcp_server/
     └── main.cpp         
 
 
-#Build & Run Instructions
+## Build & Run Instructions
 
-###Requirements
+#### Requirements
 * g++ or gcc (minimum 12.3.0)  
 * Cmake (4.2.0)
 
 
-### 1.Clone the repository
+#### 1.Clone the repository
 
 ```bash
 git clone https://github.com/Pram018/barebones_tcp_server.git
 cd barebones_tcp_server
 ```
 
-### 2.Build the project
+#### 2.Build the project
 
 ```bash
 mkdir build && cd build
@@ -44,13 +44,13 @@ cmake ..
 make
 ```
 
-### 3.Run the server
+#### 3.Run the server
 
 ```bash
 ./bin/tcp_server
 ```
 
-### 4.Test the server
+#### 4.Test the server
 
 You can use `netcat` or a custom client:
 
@@ -58,7 +58,7 @@ You can use `netcat` or a custom client:
 telnet localhost 54000
 ```
 
-### Output
+#### Output
 
 <img width="1125" height="158" alt="Screenshot from 2025-11-24 22-21-25" src="https://github.com/user-attachments/assets/02baac7b-cc44-433a-93d9-0d5a699f93a4" />
 
