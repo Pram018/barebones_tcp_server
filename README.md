@@ -13,14 +13,14 @@ This project was created during my networking and socket-programming learning ph
 ---
 
 ### Project Structure
-
+```bash
 barebones_tcp_server/
 ├── build/             
 ├── CMakeLists.txt       
 ├── README.md            
 └── src/
      └── main.cpp         
-
+```
 
 ## Build & Run Instructions
 
